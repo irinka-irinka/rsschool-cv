@@ -13,6 +13,8 @@
 
 #### **Telegram:** *@irinka_irinka3*
 
+#### **GitHub:** *[irinka-irinka](irinka-irinka)*
+
 ***
 
 ## About Me
