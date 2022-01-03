@@ -11,7 +11,19 @@ a {
   color: inherit;
   cursor: pointer;
 }
+a:hover {
+  color: #fff;
+}
 
+.my-courses-udemy-list a:hover,
+.my-courses-item a:hover {
+  font-weight: 800;
+  font-size: 17px;
+  color: rgb(33, 35, 37);
+  transition: all .5s;
+}
+
+ 
 .main-content-container {
   display: flex;
   flex-direction: row-reverse;
