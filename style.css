@@ -11,6 +11,7 @@ a {
   color: inherit;
   cursor: pointer;
 }
+
 a:hover {
   color: #fff;
 }
@@ -23,7 +24,7 @@ a:hover {
   transition: all .5s;
 }
 
- 
+
 .main-content-container {
   display: flex;
   flex-direction: row-reverse;
@@ -125,10 +126,63 @@ a:hover {
   color: #fff;
 }
 
+.tech-skills-list span:hover {
+  font-size: 15px;
+  transition: all .3s;
+  font-weight: 500;
+
+}
+
 .tech-skills-item-text {
   font-weight: 400;
   font-style: normal;
   color: #fff;
   font-size: 14px;
   line-height: 24px;
+}
+
+footer {
+  position: relative;
+  margin: 0 auto;
+  width: 830px;
+  bottom: 105px;
+
+
+}
+
+.footer-content {
+
+  color: #000;
+  display: flex;
+  margin: 0 auto;
+  justify-content: space-evenly;
+  width: 1200px;
+  align-items: center;
+}
+
+.footer-link {
+  font-weight: 400;
+
+  font-size: 12px;
+  line-height: 24px;
+  display: block;
+}
+
+.footer-link:hover {
+  font-weight: 600;
+  color: rgb(33, 35, 37);
+  transition: all .3s;
+
+}
+
+.footer-img {
+  display: block;
+  width: 100px;
+
+  color: #fff
+}
+
+.footer-logo {
+  width: 20px;
+  height: 20px;
 }
