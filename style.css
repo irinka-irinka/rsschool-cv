@@ -1,0 +1,188 @@
+body {
+  background-color: #F5F7FA;
+  font-family: "Montserrat", sans-serif;
+
+  margin: 0 auto;
+
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+}
+
+a:hover {
+  color: #fff;
+}
+
+.my-courses-udemy-list a:hover,
+.my-courses-item a:hover {
+  font-weight: 800;
+  font-size: 17px;
+  color: rgb(33, 35, 37);
+  transition: all .5s;
+}
+
+
+.main-content-container {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  width: 1200px;
+  background: #fff;
+  margin: 40px auto;
+  box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
+}
+
+.main-content-section {
+
+  padding: 100px 90px;
+}
+
+.main-content-title {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 27px;
+  margin-bottom: 10px;
+  color: #000;
+}
+
+.about-me-section {
+  margin-bottom: 40px;
+}
+
+.about-me-profession {
+  font-weight: 700;
+  font-size: 14px;
+  color: #000;
+  line-height: 17px;
+  margin-bottom: 19px;
+}
+
+.about-me-name {
+  font-weight: 700;
+  font-style: normal;
+  font-size: 45px;
+  line-height: 55px;
+  margin-bottom: 25px;
+}
+
+.about-me-description,
+.english {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  max-width: 400px;
+  color: #595959;
+}
+
+
+
+
+.sidebar-section {
+  background-color: rgb(33, 35, 37);
+  max-width: 370px;
+  padding-top: 40px;
+}
+
+.contacts-section,
+.tech-skills-section {
+  margin: 50px 0 0 40px;
+}
+
+
+.sidebar-title {
+  font-style: normal;
+  font-size: 22px;
+  line-height: 27px;
+  font-weight: 700;
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+.contacts-section-type {
+
+  font-weight: 700;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 24px;
+  color: #fff;
+  margin-right: 5px;
+}
+
+.contacts-section-link {
+  font-weight: 400;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 24px;
+  color: rgba(142, 148, 156, 1);
+}
+
+.tech-skills-list {
+  padding: 0 0 0 17px;
+  color: #fff;
+}
+
+.tech-skills-list span:hover {
+  font-size: 15px;
+  transition: all .3s;
+  font-weight: 500;
+
+}
+
+.tech-skills-item-text {
+  font-weight: 400;
+  font-style: normal;
+  color: #fff;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+footer {
+  position: relative;
+  margin: 0 auto;
+  width: 830px;
+  bottom: 105px;
+
+
+}
+
+.footer-content {
+
+  color: #000;
+  display: flex;
+  margin: 0 auto;
+  justify-content: space-evenly;
+  width: 1200px;
+  align-items: center;
+}
+
+.footer-link {
+  font-weight: 400;
+
+  font-size: 12px;
+  line-height: 24px;
+  display: block;
+}
+
+.footer-link:hover {
+  font-weight: 600;
+  color: rgb(33, 35, 37);
+  transition: all .3s;
+
+}
+
+.footer-img {
+  display: block;
+  width: 100px;
+
+  color: #fff
+}
+
+.footer-logo {
+  width: 20px;
+  height: 20px;
+}
